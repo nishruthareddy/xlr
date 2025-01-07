@@ -11,8 +11,8 @@ public class demo13 {
     public static void main(String[] args) {
 		int s1 = 5, s2 = 6, s3 =7;		
         TriangleAreaDemo1 ta = new TriangleAreaDemo1();
-        ta.getTriangleArea(s1, s2, s3);
+        double area = ta.getTriangleArea(s1, s2, s3);
 		
-		System.out.println("The triangle area is : " + ta);
+		System.out.println("The triangle area is : " + area);
 	}
 }
